@@ -5,3 +5,7 @@ body{
   background-color: rgba(228, 202, 168, 0.406);
   color: black;
 }
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
