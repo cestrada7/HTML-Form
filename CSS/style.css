@@ -4,6 +4,8 @@ body{
   margin: 0;
   background-color: rgba(228, 202, 168, 0.406);
   color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
 }
 label{
   display: block;
