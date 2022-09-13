@@ -14,3 +14,7 @@ label{
 textarea::placeholder{
   color: green;
 }
+h1, p{
+  text-align: center;
+  margin: 1em auto;
+}
