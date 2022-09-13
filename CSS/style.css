@@ -9,3 +9,9 @@ label{
   display: block;
   margin: 0.5rem 0;
 }
+textarea{
+  color: rgb(2, 104, 2);
+}
+textarea::placeholder{
+  color: green;
+}
