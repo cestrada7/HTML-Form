@@ -15,22 +15,22 @@
     <fieldset>
         <label>
           Enter your first name: 
-           <input type="text" required>
+           <input type="text" name="firstName" required>
         </label>
 
         <label>
           Enter your last Name: 
-            <input type="text" required>
+            <input type="text" name="lastName" required>
         </label>
 
         <label>
           Enter your email: 
-           <input type="email" required>
+           <input type="email" name="email" required>
         </label>
         
         <label>
           Enter your password: 
-           <input type="password" required pattern="[a-z0-5]{8,}">
+           <input type="password" name="password" required pattern="[a-z0-5]{8,}">
         </label>
    </fieldset>
 
@@ -47,24 +47,24 @@
       
       <label>
         I accept the <a href="">terms and conditions</a> 
-          <input type="checkbox" required>
+          <input type="checkbox" name="termsConditions" required>
       </label>
     </fieldset>
     
     <fieldset>
       <label>
         Upload a profile picture
-          <input type="file">
+          <input type="file" name="profilePicture">
       </label>
 
       <label>
         Input your age (years):
-          <input type="number" min="13" max="120">
+          <input type="number" name="age" min="13" max="120">
       </label>
 
       <label>
         How did you hear from us?
-          <select>
+          <select name="referrer">
             <option value="">(select one)</option>
             <option value="1">News</option>
             <option value="2">Blog</option>
@@ -74,7 +74,7 @@
       </label>
 
       <label>Provide a bio:
-        <textarea name="" id="" cols="30" rows="3" placeholder="I like coding on a rainy day..."></textarea>
+        <textarea name="bio" id="" cols="30" rows="3" placeholder="I like coding on a rainy day..."></textarea>
       </label>
     </fieldset>
      <input type="submit" value="submit">
