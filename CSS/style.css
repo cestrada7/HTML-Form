@@ -36,9 +36,15 @@ fieldset:last-of-type{
 input, textarea, select{
   width: 100%;
   margin: 10px 0;
+  min-height: 2em;
 }
 .inline{
   width: unset;
   margin: 0 0.5em 0 0;
   vertical-align: middle;
+}
+input, textarea{
+  background-color: rgba(221, 191, 155, 0.229);
+  border: 1px solid rgba(197, 170, 134, 0.833);
+  color: darkgreen;
 }
